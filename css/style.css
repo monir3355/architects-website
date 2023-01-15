@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+:root{
+    --primary-color: #131313;
+    --secondary-color: #727272;
+    --btn-color: #FF900E;
+
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.btn{
+    background-color: var(--btn-color);
+    border: 0;
+    padding: 12px 14px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+.btn:hover{
+    background-color: #e68618;
+    cursor: pointer;
+}
+/* Header Section */
+header{
+    background: rgba(255, 144, 14, 0.1);;
+}
+.menu-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+}
+.logo > a{
+    text-decoration: none;
+}
+.logo > a > h3{
+    font-size: 44px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+.menus > ul{
+    display: flex;
+    gap: 50px;
+}
+.menus > ul > li{
+    list-style: none;
+}
+.menus > ul > li > a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #424242;
+}
+/* header banner */
+.header-banner{
+    text-align: center;
+}
+.header-content > h1{
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+.header-content > p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 300px;
+    margin: 0 auto;
+}
+.banner-img{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.banner-img > img{
+    width: 100%;
+    height: 100%;
+}
+/* Main Section  */
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+/* quick list */
+.quick-list{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    align-items: center;
+    padding: 50px 0;
+}
+.quick-thumnail{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.thumnail-img{
+    height: 100%;
+    width: 100%;
+}
+.thumnail-img > img{
+    width: 100%;
+    height: 100%;
+    box-shadow: rgb(38 57 77) 0px 20px 30px -10px;
+    border-radius: 8px;
+}
+.quick-content{
+    width: 50%;
+}
+.quick-content > h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 70px;
+}
+.quick-content > h1 > span{
+    font-weight: 400;
+    color: var(--secondary-color);
+    
+}
+.quick-content > h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--btn-color);
+}
+.quick-content > p{
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+/* Loves Section */
+.love-container{
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.love-content{
+    width: 40%;
+}
+.love-content > h1{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+    border-left: 5px solid var(--btn-color);
+    padding-left: 10px;
+}
+.love-content > p{
+    font-size: 16px;
+    color: var(--secondary-color);
+    line-height: 26px;
+    padding: 16px 0 40px 0;
+}
+.content-story{
+    padding: 2% 2%;
+    box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+    margin: 2% 0;
+    border-radius: 8px;
+}
+.content-story > h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.content-story > p{
+    color: var(--secondary-color);
+    line-height: 26px;
+    padding: 16px 0;
+}
+.loves-img{
+    width: 50%;
+    height: 100%;
+}
+.love-img > img{
+    width: 100%;
+    height: 100%;
+}
+.love-btn{
+    padding: 30px 50px;
+    font-size: 20px;
+    background-color: #FF900E;
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    margin: -100px 0 0 -50px;
+}
+.love-btn > span{
+    font-size: 40px;
+    font-weight: 600;
+}
+/* Some Facts */
+.facts{
+    padding: 80px 0;
+}
+.fact-content > h1{
+    font-size: 40px;
+    line-height: 70px;
+    font-weight: 600;
+}
+.fact-content > p{
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--secondary-color);
+}
+.badges{
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-around;
+}
+.badge{
+    text-align: center;
+    border: 1px solid var(--btn-color);
+    padding: 40px;
+    border-radius: 8px;
+}
+.badge:hover{
+    background-color: rgba(222, 196, 33, 0.07);
+    cursor: pointer;
+}
+.badge > img{
+    width: 20%;
+}
+.badge > h3{
+    font-size: 30px;
+    margin: 10px;
+}
+.badge > p{
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+/* Sponspors */
+.sponspors{
+    text-align: center;
+}
+.sponspors > h1{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.sponspors > p{
+    color: var(--secondary-color);
+    line-height: 26px;
+}
+.spons-icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.spons-icon{
+    width: 100px;
+}
+.spons-icon>img{
+    width: 100%;
+}
+/* review Section */
+.review-part h1{
+    font-size: 45px;
+    padding: 50px 0;
+    text-align: center;
+    font-weight: 600;
+}
+.reviews{
+    display: flex;
+    justify-content: space-between;
+}
+
+.review{
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+    box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+    border-radius: 8px;
+    margin: 30px 0;
+}
+.review-title{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+.review-img{
+    height: 70px;
+    width: 70px;
+    margin: 0 auto;
+}
+.review-img>img{
+    height: 100%;
+    width: 100%;
+}
+.filled{
+    color: #fcbd06;
+    padding: 8px 0;
+}
+.review-descp{
+    color: #727272;
+}
+/* footer */
+footer{
+    padding: 30px 20px;
+    line-height: 26px;
+    background-color: #fff4e6;
+    margin: 30px 0 70px 0;
+}
+footer > p{
+    color: var(--secondary-color);
+    text-align: center;
+}
+/* Media Query */
+@media only screen and (min-width:993px) and (max-width:1200px) {
+    /* Header */
+    .logo > a > h3{
+        font-size: 30px;
+    }
+    .logo > a > h3{
+        font-size: 45px;
+    }
+    .header-content > p{
+        padding: 20px 0;
+    }
+    /* Quick */
+    .quick-content > h1{
+        font-size: 26px;
+    }
+    .quick-content > h2{
+        font-size: 20px;
+    }
+    .quick-content > p{
+        font-size: 14px;
+    }
+    .quick-content .btn{
+        font-size: 14px;
+    }
+    /* Loves */
+    .love-content > h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .love-content > p{
+        font-size: 14px;
+    }
+    .content-story > h3{
+        font-size: 18px;
+    }
+    .content-story > p{
+        font-size: 14px;
+    }
+    .love-btn{
+        font-size: 16px;
+        padding: 20px 30px;
+    }
+    .love-btn > span{
+        font-size: 30px;
+    }
+    .love-img > img{
+        height: 600px;
+    }
+    /* facts */
+    .facts{
+        padding: 60px 0;
+    }
+    .fact-content > h1{
+        font-size: 30px;
+    }
+    .fact-content > p{
+        font-size: 14px;
+    }
+    .badge{
+        padding: 20px;
+    }
+    .badge > h3{
+        font-size: 20px;
+    }
+    .badge > p{
+        font-size: 14px;
+    }
+    /* Sponspors */
+    .sponspors > h1{
+        font-size: 30px;
+    }
+    .sponspors > p{
+        font-size: 14px;
+    }
+    .spons-icon>img{
+        width: 70%;
+    }
+    /* Our reviews */
+    .review{
+        padding: 10px;
+    }
+    .review-img>img{
+        width: 80%;
+        height: 80%;
+    }
+    .review-part h1{
+        font-size: 30px;
+    }
+    .review-title{
+        font-size: 18px;
+        padding: 0;
+    }
+    .review-descp{
+        font-size: 14px;
+    }
+    /* footer */
+    footer > p{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:992px) {
+    .menu-bar, .quick-list, .love-container, .badges{
+        flex-direction: column;
+    }
+    /* Menu */
+    .menu-bar{
+        gap: 30px;
+    }
+    .header-content > h1{
+        font-size: 45px;
+        margin-top: 30px;
+    }
+    .header-content > p{
+        padding: 30px 20px;
+    }
+    /* Quicks */
+    .quick-content{
+        width: 100%;
+        text-align: center;
+    }
+    /* Loves */
+    .love-container{
+        flex-direction: column-reverse;
+    }
+    .love-content{
+        width: 100%;
+    }
+    .loves-img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .love-btn{
+        font-size: 16px;
+        margin: 0 auto;
+        padding: 16px 40%;
+    }
+    .love-btn > span{
+        font-size: 20px;
+    }
+    .love-content > h1{
+        margin-top: 30px;
+    }
+    /* Facts */
+    .badges{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    /* facts */
+    .fact-content > h1, .fact-content > p{
+        text-align: center;
+    }
+     /* sponspors */
+     .spons-icon>img{
+        width: 60%;
+    }
+     /* Our reviews */
+     .review{
+        padding: 10px;
+    }
+    .review-img>img{
+        width: 80%;
+        height: 80%;
+    }
+    .review-part h1{
+        font-size: 30px;
+    }
+    .review-title{
+        font-size: 18px;
+        padding: 0;
+    }
+    .review-descp{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .menu-bar, .menus > ul, .quick-list, .love-container, .badges, .reviews{
+        flex-direction: column;
+    }
+    /* Header */
+    .logo > a > h3{
+        font-size: 30px;
+    }
+    .menu-bar, .menus > ul{
+        gap: 20px;
+    }
+    .header-content > h1{
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 20px;
+    }
+    .header-content > p{
+        padding: 20px 10px;
+    }
+    .btn{
+        font-size: 16px;
+    }
+    /* Quick */
+    .quick-content{
+        width: 100%;
+        text-align: center;
+    }
+    .quick-content > h1{
+        font-size: 35px;
+    }
+    /* Loves */
+    .love-container{
+        flex-direction: column-reverse;
+    }
+    .love-content{
+        width: 100%;
+    }
+    .loves-img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .love-btn{
+        font-size: 16px;
+        margin: 0 auto;
+        padding: 16px 40%;
+    }
+    .love-btn > span{
+        font-size: 20px;
+    }
+    .love-content > h1{
+        margin-top: 30px;
+    }
+    /* Facts */
+    .facts{
+        padding: 20px;
+    }
+    .badges{
+        gap: 20px;
+    }
+    .fact-content > h1, .fact-content > p{
+        text-align: center;
+    }
+    /* sponspors */
+    .spons-icon>img{
+        width: 60%;
+    }
+    /* Reviews */
+    .review-part h1{
+        padding: 10px;
+    }
+    .review{
+        width: 90%;
+    }
+}
+
