@@ -502,7 +502,7 @@ footer > p{
         gap: 20px;
     }
     .header-content > h1{
-        font-size: 40px;
+        font-size: 8vw;
         line-height: 50px;
         margin-top: 20px;
     }
@@ -513,6 +513,9 @@ footer > p{
         font-size: 16px;
     }
     /* Quick */
+    .quick-thumnail{
+        grid-template-columns: repeat(1, 1fr);
+    }
     .quick-content{
         width: 100%;
         text-align: center;
